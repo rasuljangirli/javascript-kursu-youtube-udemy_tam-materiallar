@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DOM</title>
+    <style>
+        #first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #list li {
+            list-style-type: none;
+            padding: 10px;
+            border: 1px solid red;
+            border-radius: 4px;
+            margin: 10px;
+        }
+
+        #btn {
+            padding: 9px 18px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(26, 248, 233);
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="first" class="firstDiv">
+        <ul id="list" class="firstList">
+
+            <li class="listItem">1 Lorem, ipsum dolor. <strong style="display: none;">elave</strong></li>
+            <li class="listItem">2 Lorem, ipsum dolor.</li>
+            <li class="listItem">3 Lorem, ipsum dolor.</li>
+            <li class="listItem">4 Lorem, ipsum dolor.</li>
+            <li class="listItem">5 Lorem, ipsum dolor.</li>
+        </ul>
+
+        <button id="btn" class="btnClick">Click</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

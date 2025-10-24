@@ -1,0 +1,1 @@
+//? Bu dərsimiz nəzəri dərsdir. Çalışıb dərsdə daxil olduğum qaynağlara siz özünüz də nəzər salın.

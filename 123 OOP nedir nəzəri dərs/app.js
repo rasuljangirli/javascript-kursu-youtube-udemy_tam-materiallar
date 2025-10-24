@@ -1,0 +1,7 @@
+//
+
+class Car {
+  name;
+
+  go() {}
+}

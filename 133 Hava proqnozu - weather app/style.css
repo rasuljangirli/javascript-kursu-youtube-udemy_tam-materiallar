@@ -1,0 +1,77 @@
+/* Ümumi tərz */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4a8fcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Weather container */
+.weather-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 400px;
+}
+
+/* Axtarış sahəsi */
+.search {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.search input {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 1rem;
+}
+
+.search button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #187bcd;
+}
+
+/* Şəhər və ölkə */
+.location {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Temperatur */
+.temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff4500;
+}
+
+/* Hava təsviri */
+.condition {
+    font-size: 1.2rem;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+/* Hava ikonu */
+.icon img {
+    width: 80px;
+    height: 80px;
+}

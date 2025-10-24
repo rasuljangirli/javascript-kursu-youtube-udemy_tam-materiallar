@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hava Proqnozu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-container">
+      <!-- Axtarış sahəsi -->
+      <div class="search">
+        <input type="text" id="city-input" placeholder="Şəhər adı daxil edin" />
+        <button id="search-btn">Axtar</button>
+      </div>
+
+      <!-- Şəhər və ölkə -->
+      <div class="location">
+        <span id="city">Şəhər</span>, <span id="country">Ölkə</span>
+      </div>
+
+      <!-- Temperatur -->
+      <div class="temperature">
+        <span id="temp">°C</span>
+      </div>
+
+      <!-- Hava təsviri -->
+      <div class="condition">
+        <span id="condition-text">Hava açıqlaması</span>
+      </div>
+
+      <!-- Hava ikonu (istəyə bağlı) -->
+      <div class="icon">
+        <img id="condition-icon" src="" alt="Weather Icon" />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

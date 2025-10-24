@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <h1>Currency Converter</h1>
+        <p class="subtitle">Valyuta çevirici</p>
+      </header>
+
+      <section class="converter-card">
+        <div class="row">
+          <label for="amount-input">Amount</label>
+          <input id="amount-input" type="number" placeholder="100" />
+        </div>
+
+        <div class="row double">
+          <div>
+            <label for="from-currency">From</label>
+            <select id="from-currency">
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="TRY">TRY</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="to-currency">To</label>
+            <select id="to-currency">
+              <option value="EUR">EUR</option>
+              <option value="USD">USD</option>
+              <option value="TRY">TRY</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row actions">
+          <button id="convert-button" type="button" class="btn primary">
+            Convert
+          </button>
+        </div>
+
+        <div id="result" class="result">
+          <div id="rate-info" class="rate">info</div>
+          <div id="converted" class="converted">Nəticə :</div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Link your app.js here -->
+    <script src="app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulyator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" class="display" disabled>
+        <div class="buttons">
+            <button class="btn btn-7">7</button>
+            <button class="btn btn-8">8</button>
+            <button class="btn btn-9">9</button>
+
+            <button class="btn operator btn-divide">/</button>
+
+            <button class="btn btn-4">4</button>
+            <button class="btn btn-5">5</button>
+            <button class="btn btn-6">6</button>
+
+            <button class="btn operator btn-multiply">*</button>
+
+            <button class="btn btn-1">1</button>
+            <button class="btn btn-2">2</button>
+            <button class="btn btn-3">3</button>
+            <button class="btn operator btn-minus">-</button>
+
+            <button class="btn btn-0">0</button>
+            <button class="btn btn-dot">.</button>
+
+            <button class="btn btn-clear" id="clear">C</button>
+
+            <button class="btn operator btn-plus">+</button>
+
+            <button class="btn btn-delete" id="delete">D</button>
+
+            <button class="btn equal btn-equal" id="equal">=</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.2.1/math.js"
+        integrity="sha512-ZOpEWF/zdnWKFpyY0TMzmZGkhjM9Z4RkW/GMF9X9NtZ6bhDqzAlWfk7NwqHPD+WriepCt3Th6+4jl4w4wkQolA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+:root {
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --accent: #2b93ff;
+  --muted: #6b7280;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #ffd700 0%, #ff0000 100%);
+  color: #0f172a;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.app {
+  width: 100%;
+  max-width: 780px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.converter-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: 0 6px 24px rgba(11, 22, 48, 0.08);
+}
+
+.row {
+  margin-top: 12px;
+}
+.row label {
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+  color: var(--muted);
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #e6e9ef;
+  font-size: 1rem;
+  outline: none;
+}
+
+.row.double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn.outline {
+  background: transparent;
+  border: 1px solid #d1d5db;
+}
+.btn.primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.result {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid #eef2ff;
+}
+.rate {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.converted {
+  margin-top: 6px;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.note {
+  margin-top: 12px;
+  color: var(--muted);
+  text-align: right;
+}
+
+@media (max-width: 520px) {
+  .row.double {
+    grid-template-columns: 1fr;
+  }
+  .actions {
+    justify-content: space-between;
+  }
+}
