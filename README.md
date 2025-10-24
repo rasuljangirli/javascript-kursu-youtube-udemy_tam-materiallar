@@ -1,5 +1,7 @@
 # JavaScript Kursu – YouTube və Udemy Tam Materiallar
 
+JavaScript kursumun paylaşıldığı playlistə keçid üçün [klikləyin]([https://www.youtube.com/@rasul_jangirli](https://youtube.com/playlist?list=PL92uWBynqvSprmUQYvgxyTggZQvjuElOF&si=IUPiqlyQAtXCHzER))
+
 Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli)
 
 Medium hesabımda məqalələrimlə tanış olmaq üçün [klikləyin](https://medium.com/@rasuljangirli)
