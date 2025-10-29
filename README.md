@@ -1,6 +1,6 @@
 # JavaScript Kursu – YouTube və Udemy Tam Materiallar
 
-JavaScript kursumun paylaşıldığı playlistə keçid üçün [klikləyin](https://youtube.com/playlist?list=PL92uWBynqvSprmUQYvgxyTggZQvjuElOF&si=IUPiqlyQAtXCHzER)
+Kursu almaq üçün link : [klikləyin](https://www.udemy.com/course/javascript-drslri-0-dan-irli-sviyyy-qdr-az/?referralCode=963A12D728DC3B3E2E11)
 
 Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli)
 
@@ -76,6 +76,8 @@ git clone https://github.com/rasuljangirli/javascript-kursu-youtube-udemy_tam-ma
 ```
 
 ---
+
+Kursu almaq üçün link : [klikləyin](https://www.udemy.com/course/javascript-drslri-0-dan-irli-sviyyy-qdr-az/?referralCode=963A12D728DC3B3E2E11)
 
 Youtube kanalımda dərs videolarından yararlanmaq üçün [klikləyin](https://www.youtube.com/@rasul_jangirli).
 
